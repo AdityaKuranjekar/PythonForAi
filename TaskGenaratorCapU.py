@@ -1,7 +1,6 @@
 import openai
 
-# Replace 'your-api-key' with your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "your-api-key"
 
 
 def generate_text(prompt, model="gpt-4o", max_tokens=150):
